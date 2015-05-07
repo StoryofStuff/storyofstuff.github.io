@@ -6319,12 +6319,15 @@ th.hide-for-touch {
 @media not print {
   .show-for-print {
     display: none !important; } }
+body {
+  font-family: 'Lora', serif;
+  font-size: 1.4rem; }
+
 #header {
   width: 100%; }
   #header h1 {
     margin: 50px auto;
     font-size: 3rem;
-    font-weight: 700;
     font-family: 'Roboto Slab', serif; }
 
 #content {
@@ -6334,8 +6337,25 @@ th.hide-for-touch {
   margin: 0 auto;
   min-height: 500px; }
   #content p, #content h1, #content h2, #content h3, #content h4, #content h5, #content h6 {
-    font-family: 'Lora', serif; }
+    font-family: 'Roboto Slab', serif; }
   #content p {
     font-size: 1.4rem; }
+
+#footer {
+  margin-top: 100px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding-top: 0px; }
+  #footer img.avatar {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); }
+  #footer .footer-content {
+    padding: 100px 75px 0px; }
 
 /*# sourceMappingURL=style.css.map */
