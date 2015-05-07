@@ -1,0 +1,30 @@
+body
+{
+}
+#header
+{
+	width: 100%;
+	h1
+	{
+		margin: 50px auto;
+		font-size: 3rem;
+		font-weight: 700;
+		font-family: 'Roboto Slab', serif;
+	}
+}
+#content
+{
+	p, h1, h2, h3, h4, h5, h6
+	{
+		font-family: 'Lora', serif;
+	}
+	p
+	{
+		font-size: 1.4rem;
+	}
+	background: #fff;
+	width: 800px;
+	max-width: 100%;
+	margin: 0 auto;
+	min-height: 500px;
+}
